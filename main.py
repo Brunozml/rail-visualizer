@@ -107,6 +107,14 @@ class RailNetwork:
             for connection_data in data['connections']:
                 connection = Connection(connection_data['start_city'], connection_data['end_city'], connection_data['duration'])
                 self.add_connection(connection)
+    
+    def sort_connections(self):
+        """
+        Sorts the connections list based on duration in ascending order.
+        """
+        self.connections.sort(key=lambda x: x.duration)
+        return self.connections
+
 
 class RailNetworkVisualizer:
     """
