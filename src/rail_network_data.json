@@ -1,0 +1,19 @@
+{
+    "cities": [
+        {"name": "Esbjerg", "coordinates": [8.45, 55.47]},
+        {"name": "Aarhus", "coordinates": [10.20, 56.15]},
+        {"name": "Aalborg", "coordinates": [9.93, 57.05]},
+        {"name": "Skagen", "coordinates": [10.58, 57.72]},
+        {"name": "Copenhagen", "coordinates": [12.57, 55.68]},
+        {"name": "Odense", "coordinates": [10.39, 55.40]}
+    ],
+    "connections": [
+        {"start_city": "Copenhagen", "end_city": "Odense", "duration": 1.11},
+        {"start_city": "Odense", "end_city": "Esbjerg", "duration": 1.19},
+        {"start_city": "Esbjerg", "end_city": "Aarhus", "duration": 2.12},
+        {"start_city": "Aarhus", "end_city": "Aalborg", "duration": 1.12},
+        {"start_city": "Aalborg", "end_city": "Skagen", "duration": 1.96},
+        {"start_city": "Skagen", "end_city": "Aarhus", "duration": 1.35},
+        {"start_city": "Aarhus", "end_city": "Copenhagen", "duration": 2.90}
+    ]
+}
